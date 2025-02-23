@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Portfolio</title>
+  <!-- Tailwind CSS via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="index.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <style>
+    /* Custom Gradient Background */
+    .gradient-bg {
+      background: linear-gradient(to bottom right, #ffffff, #a7f3d0);
+    }
+    .gradient-bg2{
+        background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+    }
+  </style>
+</head>
+<body class="gradient-bg font-sans antialiased text-gray-900 " style="font-family: poppins;">
+  <!-- Navbar -->
+  <header class="bg-opacity-80 backdrop-blur-md pt-12">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-3xl font-bold">Okomoto</h1>
+      <nav class="border-2 rounded-3xl p-2 px-8 border-[#B3D8A8] bg-green-50 shadow-md " style="font-family: poppins; font-weight: 300; ">
+        <ul class="flex space-x-6">
+          <li><a href="#about" class="hover:text-green-600 text-xl">About</a></li>
+          <li><a href="#projects" class="hover:text-green-600 text-xl">Projects</a></li>
+          <li><a href="#contact" class="hover:text-green-600 text-xl">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+
+  
+
+  <!-- Hero Section -->
+  <section class=" flex flex-col lg:flex-row items-center justify-center text-center my-12 lg:text-left px-6 lg:px-20 max-w-6xl mx-auto">
+    <!-- Left Side (Text) -->
+    <div class="lg:w-1/2 space-y-5">
+      <h2 class="text-5xl font-bold">Hello, I'm Joyada Okomoto</h2>
+      <p class="text-lg pb-8">A passionate developer and designer.</p>
+      <a href="#projects" class="bg-green-500 text-white px-6 py-3 rounded-full shadow-lg hover:bg-green-50 hover:text-black transition">
+        View My Work
+      </a>
+    </div>
+
+
+    <!-- Right Side (Image) -->
+    <div class="lg:w-1/2 flex justify-center">
+      <img src="Assets\IMG_4280.JPG" alt="Joyada Okomoto" class="w-64 h-64 lg:w-80 lg:h-80 object-cover rounded-2xl shadow-lg">
+    </div>
+  </section>
+
+  
+
+
+  <!-- About Section -->
+  <section id="about" class="max-w-4xl mx-auto px-6 py-16">
+    <h3 class="text-3xl font-bold text-center mb-8">About Me</h3>
+    <p class="text-center text-gray-700 text-xl">20 year old guy from Indonesia, Informatics Technology undergraduate student at <span class="font-bold">Universitas Advent Indonesia</span></p>
+  </section>
+
+
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-16 bg-white bg-opacity-80 backdrop-blur-md">
+    <div class="max-w-6xl mx-auto px-6">
+      <h3 class="text-3xl font-bold text-center mb-12">My Projects</h3>
+      <div class="grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+        <div class="bg-white shadow-lg rounded-lg p-6">
+            <img src="Assets\Screenshot 2025-02-22 183728.png" alt="" class="rounded-xl h-54">
+          <h4 class="text-xl font-bold mb-2">Project One</h4>
+          <p class="text-gray-700">Website Clone of "Jiwa Group" Web</p>
+        </div>
+        <div class="bg-white shadow-lg rounded-lg p-6">
+          <h4 class="text-xl font-bold mb-2">Project Two</h4>
+          <p class="text-gray-700">A brief description of the project goes here.</p>
+        </div>
+        <div class="bg-white shadow-lg rounded-lg p-6">
+          <h4 class="text-xl font-bold mb-2">Project Three</h4>
+          <p class="text-gray-700">A brief description of the project goes here.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="max-w-4xl mx-auto px-6 py-16 text-center">
+    <h3 class="text-3xl font-bold mb-8">Contact Me</h3>
+    <a href="mailto:your.email@example.com" class="text-lg text-green-600 hover:underline">your.email@example.com</a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-6 text-center">
+    <p>&copy; 2025 Joyada Okomoto. All rights reserved.</p>
+  </footer>
+</body>
+</html>
